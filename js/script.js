@@ -34,8 +34,8 @@ const team = [
 // creo un collegamento con l'html
 const cardHtml = document.querySelector(".team-container");
 
-// ciclo i singoli oggetti all'interno dell'array..
-for (let i = 0; i < team.length; i++) {
+// ciclo i singoli oggetti, partendo dal secondo i[1], all'interno dell'array..
+for (let i = 1; i < team.length; i++) {
   const teamMember = team[i];
 
   // ..stampando di volta in volta in html i relativi valori di name-role-image
